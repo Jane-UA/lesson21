@@ -50,7 +50,7 @@ def question4(input_list: List[int]) -> int:
         if el > res:
             res = el
     return res
-#question1 - n
+#question4 - n
 
 
 def question5(n: int) -> List[Tuple[int, int]]:
@@ -59,7 +59,7 @@ def question5(n: int) -> List[Tuple[int, int]]:
         for j in range(n):
             res.append((i, j))
     return res
-#question5
+#question5 -
 
 def question6(n: int) -> int:
     while n > 1:
