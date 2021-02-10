@@ -29,7 +29,7 @@ def question2(n: int) -> int:
     for _ in range(10):
         n **= 3
     return n
-#question2 - n
+#question2 - 1
 
 def question3(first_list: List[int], second_list: List[int]) -> List[int]:
     temp: List[int] = first_list[:]
@@ -42,7 +42,7 @@ def question3(first_list: List[int], second_list: List[int]) -> List[int]:
         if not flag:
             temp.append(second_list)
     return temp
-#question3 - n
+#question3 - n^2
 
 def question4(input_list: List[int]) -> int:
     res: int = 0
@@ -59,13 +59,13 @@ def question5(n: int) -> List[Tuple[int, int]]:
         for j in range(n):
             res.append((i, j))
     return res
-#question5 -
+#question5 - n^2
 
 def question6(n: int) -> int:
     while n > 1:
         n /= 2
     return n
-#question6 -
+#question6 - log n
 
 if __name__ == '__main__':
     start_time = datetime.now()
