@@ -9,12 +9,6 @@
 from typing import List, Tuple
 from datetime import datetime
 
-start_time = datetime.now()
-# your func
-end_time = datetime.now()
-print('Duration: {}'.format(end_time - start_time))
-
-
 def question1(first_list: List[int], second_list: List[int]) -> List[int]:
     res: List[int] = []
     for el_first_list in first_list:
